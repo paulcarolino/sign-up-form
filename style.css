@@ -1,0 +1,140 @@
+@font-face {
+    font-family: normal-font;
+    src: url(Assets/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: logo-font;
+    src: url(Assets/Koulen-Regular.ttf);
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.picture {
+    width: 40vw;
+    background-image: url(Assets/Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.right {
+    width: 60vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background-color: var(--main);
+    font-family: normal-font, sans-serif;
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--quaternary);
+}
+
+.logo>img {
+    height: 10vh;
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    height: auto;
+    color: var(--quaternary);
+    font-family: logo-font, sans-serif;
+    gap: 10px;
+
+
+}
+
+.logo>h1 {
+    font-weight: 2em;
+    letter-spacing: .5em;
+}
+
+.left-text {
+    padding-left: 3vw;
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 90%;
+
+}
+
+.remote-text {
+    margin: 40px 0 80px;
+}
+
+.left {
+    padding-left: 3vw;
+
+}
+
+.form-style {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--secondary);
+    box-shadow: 0px 20px -2px var(--main);
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.form-title {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.div-input-form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: .7rem;
+    text-transform: uppercase
+}
+
+input {
+    background-color: var(--secondary);
+    border: 1px solid var(--tertiary);
+    border-radius: 3px;
+}
+
+button {
+    background-color: var(--main);
+    color: var(--tertiary);
+    font: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid var(--tertiary);
+    padding: 10px 40px;
+    margin: 25px 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--tertiary);
+}
+
+:root {
+    --main: #753422;
+    --secondary: #B05B3B;
+    --tertiary: #D79771;
+    --quaternary: #FFEBC9;
+
+}
