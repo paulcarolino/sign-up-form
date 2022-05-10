@@ -74,7 +74,7 @@ body {
 }
 
 .remote-text {
-    margin: 40px 0 80px;
+    margin: 40px 0 40px;
 }
 
 .left {
@@ -112,6 +112,7 @@ input {
     background-color: var(--secondary);
     border: 1px solid var(--tertiary);
     border-radius: 3px;
+    color: var(--quaternary);
 }
 
 button {
@@ -123,11 +124,20 @@ button {
     border-radius: 5px;
     border: 2px solid var(--tertiary);
     padding: 10px 40px;
-    margin: 25px 0;
+    margin: 35px 0;
 }
 
 a {
     text-decoration: none;
+    color: var(--secondary);
+}
+
+button:hover{
+    background-color: var(--tertiary);
+    color: var(--quaternary);
+}
+
+a:hover{
     color: var(--tertiary);
 }
 
