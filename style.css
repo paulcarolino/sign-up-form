@@ -18,7 +18,7 @@
     width: 40vw;
     background-image: url(Assets/Wallpaper.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 .right {
@@ -132,12 +132,12 @@ a {
     color: var(--secondary);
 }
 
-button:hover{
+button:hover {
     background-color: var(--tertiary);
     color: var(--quaternary);
 }
 
-a:hover{
+a:hover {
     color: var(--tertiary);
 }
 
